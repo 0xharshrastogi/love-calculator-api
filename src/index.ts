@@ -2,6 +2,7 @@ import express, { Request, Response } from 'express';
 import { loveCalculationAlgorithm } from './loveCalculationAlgorithm';
 
 const app = express();
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
@@ -34,6 +35,6 @@ app.get('/api/v1/calculate', (req: Request, res: Response) => {
   }
 });
 
-app.listen(8080, () => {
-  console.log('Listening on port 8080');
+app.listen(PORT, () => {
+  console.log('Listening on port:', PORT);
 });
