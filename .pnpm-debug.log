@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: typescript",
+      "code": "ENOENT",
+      "stack": "Error: not found: typescript\n    at getNotFoundError (C:\\Users\\Harsh\\.nvm\\versions\\node\\v14.18.1\\bin\\node_modules\\pnpm\\dist\\pnpm.cjs:48369:51)\n    at Function.whichSync [as sync] (C:\\Users\\Harsh\\.nvm\\versions\\node\\v14.18.1\\bin\\node_modules\\pnpm\\dist\\pnpm.cjs:48446:13)\n    at getCommandAbsolutePathSync (C:\\Users\\Harsh\\.nvm\\versions\\node\\v14.18.1\\bin\\node_modules\\pnpm\\dist\\pnpm.cjs:50011:44)\n    at default_1 (C:\\Users\\Harsh\\.nvm\\versions\\node\\v14.18.1\\bin\\node_modules\\pnpm\\dist\\pnpm.cjs:50020:32)\n    at C:\\Users\\Harsh\\.nvm\\versions\\node\\v14.18.1\\bin\\node_modules\\pnpm\\dist\\pnpm.cjs:129587:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "E:\\Code\\love-api",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: typescript",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: typescript\n    at getNotFoundError (C:\\Users\\Harsh\\.nvm\\versions\\node\\v14.18.1\\bin\\node_modules\\pnpm\\dist\\pnpm.cjs:48369:51)\n    at Function.whichSync [as sync] (C:\\Users\\Harsh\\.nvm\\versions\\node\\v14.18.1\\bin\\node_modules\\pnpm\\dist\\pnpm.cjs:48446:13)\n    at getCommandAbsolutePathSync (C:\\Users\\Harsh\\.nvm\\versions\\node\\v14.18.1\\bin\\node_modules\\pnpm\\dist\\pnpm.cjs:50011:44)\n    at default_1 (C:\\Users\\Harsh\\.nvm\\versions\\node\\v14.18.1\\bin\\node_modules\\pnpm\\dist\\pnpm.cjs:50020:32)\n    at C:\\Users\\Harsh\\.nvm\\versions\\node\\v14.18.1\\bin\\node_modules\\pnpm\\dist\\pnpm.cjs:129587:39"
+    }
+  }
+}
