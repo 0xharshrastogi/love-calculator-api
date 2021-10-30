@@ -21,9 +21,8 @@ function calculateArraySum(nums: number[]): number {
   return calculateArraySum(restArray);
 }
 
-export function loveCalculationAlgorithm(maleName: string, femaleName: string): number {
-  // based on this algorithm: https://youtu.be/oFsLVG7EAZ4
-  const str = maleName + ' loves ' + femaleName;
+export function loveCalculationAlgorithm(personA: string, personB: string): number {
+  const str = personA + ' loves ' + personB;
   const uniqueCharCount = new Map<string, number>();
 
   for (const character of str) {
@@ -39,5 +38,3 @@ export function loveCalculationAlgorithm(maleName: string, femaleName: string): 
 
   return calculateArraySum(values);
 }
-
-console.log(loveCalculationAlgorithm('marry', 'james'));

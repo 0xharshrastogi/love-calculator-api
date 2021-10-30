@@ -1,3 +1,4 @@
+import cors from 'cors';
 import express, { Request, Response } from 'express';
 import { loveCalculationAlgorithm } from './loveCalculationAlgorithm';
 
@@ -5,6 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
+app.use(cors());
 
 function cappitalise(value: string) {
   return value[0].toUpperCase() + value.slice(1);
