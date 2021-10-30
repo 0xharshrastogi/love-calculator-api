@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.ts",
-  "scripts": {},
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
