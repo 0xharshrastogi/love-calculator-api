@@ -25,6 +25,10 @@ function loveMessage(value: number, personA: string, personB: string): string {
     return `${personA} and ${personB} this isn't going to greate relationship maybe find someone else.`;
 }
 
+app.get('/', (req: Request, res: Response) => {
+  res.send('Hello');
+});
+
 app.get('/api/v1/calculate', (req: Request, res: Response) => {
   type RequestQuery = { personA: string; personB: string };
   try {
